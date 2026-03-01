@@ -1,3 +1,52 @@
+## v2.7.3
+
+- do not hide the status bar (#40)
+- Add ctrl + V support for desktop
+- Add clipboard handling (attachment sheet has an extra button for pastables)
+- better url handling for desktop notifications, and media gallery links
+- Fix room info dropdowns not being aligned to the location, and use better room join rule display names
+- Android: Try forwarding avatar to call screen
+- Add start menu icons for Windows and MacOS
+- Add power levels, and perms management to room info screen (initial)
+- Add an option to set room alias when creating a room
+- move actually to 1.10.0
+- fix replies taking full width
+- (Android) pass a diff. color to markdown text for better monochrome contrast
+- Fix no results string
+- Fix no rooms match string
+- fix thread replies again
+- Let message bubbles take 80% of available width
+- Use the Material 3 Expressive theme
+- Initial translation handling (es)
+- rem legacy packaging, and update ndk ver (test fdroid build)
+- bump from rc-02 to rel. for M. Compose
+- Improve room info screen
+- Make media gallery auto paginate for all 4 tabs (remove load more)
+- hide option to change title and topic if power levels are low
+- Resolve room names in spaces (lazy)
+- avatar handling for spaces
+- try fixing flathub screen share (and cam)
+- Add View all option for pinned messages
+- Add "Report content" and Pins support
+- Shift flathub builds locally
+- update media and files screen to seperate by month, show "load more" in empty rooms, add avatar for space detail screen, and other misc changes
+- fix vendored tarball
+- update vendor tarball yml
+- bump back to 21 (for fdroid deb. migration)
+- Clarify Android and Linux build availability in README
+- add vendoring yml
+- remove duplicate "Add space" button, when no spaces exist
+- reduce the pagination load to 20 (from 50) messages at a time
+- fix duplicate notifications on Desktop
+- version info embedding for desktop AppImages
+- Reduce monochrome icon size slightly
+- Add an option to disable media preview thumbnails (can be used for saving mobile data)
+- Revise README for clarity and feature updates
+- Add nav bars padding (#31)
+- try fix windows build lib not being copied
+- upgrade to agp 9.0.0
+
+
 ## v2.7.2
 
 - Add ctrl + V support for desktop
