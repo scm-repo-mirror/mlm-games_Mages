@@ -46,6 +46,57 @@
     <content_attribute id="social-audio">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="2.7.4" date="2026-05-01" type="stable">
+      <description>
+        <ul>
+          <li>do not hide the status bar (#40)</li>
+          <li>Add ctrl + V support for desktop</li>
+          <li>Add clipboard handling (attachment sheet has an extra button for pastables)</li>
+          <li>better url handling for desktop notifications, and media gallery links</li>
+          <li>Fix room info dropdowns not being aligned to the location, and use better room join rule display names</li>
+          <li>Android: Try forwarding avatar to call screen</li>
+          <li>Add start menu icons for Windows and MacOS</li>
+          <li>Add power levels, and perms management to room info screen (initial)</li>
+          <li>Add an option to set room alias when creating a room</li>
+          <li>move actually to 1.10.0</li>
+          <li>fix replies taking full width</li>
+          <li>(Android) pass a diff. color to markdown text for better monochrome contrast</li>
+          <li>Fix no results string</li>
+          <li>Fix no rooms match string</li>
+          <li>fix thread replies again</li>
+          <li>Let message bubbles take 80% of available width</li>
+          <li>Use the Material 3 Expressive theme</li>
+          <li>Initial translation handling (es)</li>
+          <li>rem legacy packaging, and update ndk ver (test fdroid build)</li>
+          <li>bump from rc-02 to rel. for M. Compose</li>
+          <li>Improve room info screen</li>
+          <li>Make media gallery auto paginate for all 4 tabs (remove load more)</li>
+          <li>hide option to change title and topic if power levels are low</li>
+          <li>Resolve room names in spaces (lazy)</li>
+          <li>avatar handling for spaces</li>
+          <li>try fixing flathub screen share (and cam)</li>
+          <li>Add View all option for pinned messages</li>
+          <li>Add "Report content" and Pins support</li>
+          <li>Shift flathub builds locally</li>
+          <li>update media and files screen to seperate by month, show "load more" in empty rooms, add avatar for space detail screen, and other misc changes</li>
+          <li>fix vendored tarball</li>
+          <li>update vendor tarball yml</li>
+          <li>bump back to 21 (for fdroid deb. migration)</li>
+          <li>Clarify Android and Linux build availability in README</li>
+          <li>add vendoring yml</li>
+          <li>remove duplicate "Add space" button, when no spaces exist</li>
+          <li>reduce the pagination load to 20 (from 50) messages at a time</li>
+          <li>fix duplicate notifications on Desktop</li>
+          <li>version info embedding for desktop AppImages</li>
+          <li>Reduce monochrome icon size slightly</li>
+          <li>Add an option to disable media preview thumbnails (can be used for saving mobile data)</li>
+          <li>Revise README for clarity and feature updates</li>
+          <li>Add nav bars padding (#31)</li>
+          <li>try fix windows build lib not being copied</li>
+          <li>upgrade to agp 9.0.0</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.7.3" date="2026-03-01" type="stable">
       <description>
         <ul>
